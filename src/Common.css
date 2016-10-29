@@ -1,0 +1,7 @@
+.menu-link:link, .menu-link:visited {
+  margin: 0 10px;
+  color: #777;
+  font-size: 1em;
+  font-weight: bolder;
+  text-decoration: none;
+}
