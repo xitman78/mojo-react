@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Button, FormGroup, InputGroup, FormControl, Grid, Row, Col } from 'react-bootstrap';
-import './Mojo.css';
+import React, { Component } from 'react'
+import { Button, FormGroup, InputGroup, FormControl, Grid, Row, Col } from 'react-bootstrap'
+import './Mojo.css'
+import Propsotest from '../components/propsotest'
 
 class Mojo extends Component {
 
@@ -38,6 +39,7 @@ class Mojo extends Component {
               </InputGroup>
             </FormGroup>
             </form>
+            <Propsotest some="testoo" />
            </Col>
           </Row>
         </Grid>
