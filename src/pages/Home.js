@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import carousel from '../components/carousel'
 // import './Mojo.css';
 
 export default class Home extends Component {
@@ -13,6 +14,8 @@ export default class Home extends Component {
     return (
       <div>
           <h1>Home</h1>
+          <hr />
+          {carousel}
           <hr />
           <ul style={{listStyleType: 'none'}}>
           { a.map(i => <li key={i}>{'Item ' + i}</li> ) }
