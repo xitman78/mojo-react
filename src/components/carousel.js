@@ -2,7 +2,7 @@ import React from 'react'
 import {Carousel} from 'react-bootstrap'
 
 export default (
-   <Carousel wrap={true}>
+   <Carousel wrap={true} indicators={false}>
     <Carousel.Item>
       <img width={'100%'} height={250} alt="900x500" src="/assets/slide01.png"/>
       <Carousel.Caption>
