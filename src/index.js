@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route path="contacts" component={Contacts} />
       </Route>
       <Route path="mojo" component={Mojo}/>
-      <Route path="canvas" component={MyCanvas}/>
+      <Route path="canvas" component={MyCanvas} canvasWidth={800} canvasHeight={500} />
     </Route>
   </Router>
 ,
