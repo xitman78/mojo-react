@@ -51,7 +51,7 @@ class MyCanvas extends Component {
   }
 
   render() {
-    const colors = ['red', 'green', 'blue', 'yellow', 'magenta', '#AA4499', '#33BBCC']
+    const colors = ['white', 'red', 'green', 'blue', 'yellow', 'magenta', '#AA4499', '#33BBCC', 'black']
     const brushes = [ 2, 4, 6, 8, 12, 16, 24]
     return (
       <div>
